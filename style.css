@@ -1,0 +1,91 @@
+body{
+  background-color: black;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: #fff;
+  font-family: Tahoma;
+  font-size: 16px;
+  background-image: url("https://4.bp.blogspot.com/-8xowQrcm8g0/XD930TYnh1I/AAAAAAAAAuM/JnAejzV3aPcLHGfJ_mxzVeTbUKxPv3tfwCKgBGAs/w3840-h2400-c/circuit-minimalist-11-4k.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no repeat;
+}
+
+header {
+  background-color: #444643;
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  padding: 0.5px 0 1em 0;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid white;
+}
+
+#number-label, #name-label, #email-label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+#name, #email {
+  width: 100%;
+  min-height: 2em;
+  margin: 0 0 1em 0;
+}
+
+#number, select{
+  min-height: 2em;
+}
+
+#jobs {
+  text-align: left;
+  margin: 2em auto 0.5em auto;
+}
+
+.form-check, .form-check-career, .form-group {
+  margin:0.5rem auto;
+}
+
+textarea {
+  width: 100%;
+  min-height: 5em;
+}
+
+#box {
+  margin: 2em auto 0.5em auto;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1rem;
+  background-color: #444643;
+  border-color: white;
+  color: white;
+  min-width: 300px;
+}
+
+
+
+
+

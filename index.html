@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div class="container">
+    <meta charset="UTF-8">
+    <title>Software Engineer Survey</title>
+    <link 
+          rel="stylesheet" 
+          href="styles.css"/>
+    
+    <header>
+   <h1 id="title" class="header">
+     Software Engineer Survey
+    </h1>
+   <p id="description" class="header">
+     This research is aiming to collect and analyze data of fresh graduate who wants to be a self taught Software Engineer
+    </p>
+    </header>
+    
+    <body>
+   <form action="" id="survey-form">
+     
+     <fieldset>
+       
+       <div class="user-name">
+         
+       <label id="name-label" for="user-name">Name</label>
+       <input placeholder="Enter your name" 
+              id="name" 
+              name="user-name" 
+              type="text" 
+                    required/>
+         
+       </div>
+       
+       <div class="user-email">
+       
+       <label id="email-label" for="user-email">Email</label>
+       <input placeholder="Enter your email" 
+              id="email" 
+              name="user-email" 
+              type="email"
+              required/>
+         
+       </div>
+       
+       <div class="user-age">
+       
+       <label id="number-label" for="user-age">Age (optional)</label>
+         <input id="number" 
+                name="user-age" 
+                type="number"
+                placeholder="00"
+                min="15" max="99"/>
+         
+       </div>
+     </fieldset>
+     
+       <div class="form-group">
+         
+       <p id="jobs">
+         What types of job are you currently have?
+         </p>
+         
+       <select
+               name="role"
+               id="dropdown"
+               class="form-control"
+               required>
+               
+               <option disabled selected value>Select one</option>
+         <option value="Full time">Full time</option>
+         <option value="Part time">Part time</option>
+         <option value="Freelance">Freelance</option>
+         <option value="Unemployed">Unemployed</option>
+         <option value="School or College">School or College</option>
+               
+               </select>
+       </div>
+     
+     <div class="form-check">
+       <p id=jobs>
+       How much time do you learn per week?
+       </p>
+       
+       <div class="form-check">
+       <label for"">
+         <input
+                type="radio"
+                name="user-select"
+                value="onetwo"
+                class="one-to-two"
+                checked> 1-2 hours
+       </label>
+     </div>
+       
+       <div class="form-check">
+         <label>
+           <input
+                  type="radio"
+                  name="user-select"
+                  value="threefour"
+                  class="three-to-four"/>
+           3-4 hours
+         </label>
+       </div>
+       
+       <div class="form-check">
+         <label>
+           <input
+                  type="radio"
+                  name="user-select"
+                  value="fivesix"
+                  class="five-to-six"/>
+           5-6 hours
+         </label>
+       </div>
+       
+       <div class="form-check">
+         <label>
+           <input
+                  type="radio"
+                  name="user-select"
+                  value="sixseven"
+                  class="six-to-seven"/>
+           6-7 hours
+         </label>
+       </div>
+       
+       <div class="form-check">
+         <label>
+           <input
+                  type="radio"
+                  name="user-select"
+                  value="eightmore"
+                  class="eight-or-more"/>
+           8 hours or more
+         </label>
+       </div>
+       
+       <div class="form-group row">
+         <p id="jobs">
+           Select all types of jobs that interested you 
+         </p>
+         
+         <div class="form-check-career">
+              <input
+                     type="checkbox"
+                     class="form-check-input"
+                     id="check1"
+                     name="Front End"
+                     value="something">
+           <label class="form-check-label">Front-End Developer</label>
+         </div>
+      
+         <div class="form-check-career">
+           <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="check2"
+                  name="Back End"
+                  value="something">
+           <label class="form-check-label">Back-End Developer</label>
+         </div>
+         
+         <div class="form-check-career">
+           <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="check3"
+                  name="Full Stack"
+                  value="something">
+           <label class="form-check-label">Full Stack Developer</label>
+         </div>
+         
+         <div class="form-check-career">
+           <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="check4"
+                  name="Game Dev"
+                  value="something">
+           <label class="form-check-label">Game Developer</label>
+         </div>
+         
+         <div class="form-check-career">
+           <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="check5"
+                  name="Data"
+                  value="something">
+           <label class="form-check-label">Data Engineer</label>
+         </div>
+         
+         <div class="form-check-career">
+           <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="check5"
+                  name="QA"
+                  value="something">
+           <label class="form-check-label">QA Engineer</label>
+         </div>
+         
+         <div class="form-check-career">
+              <input
+                     type="checkbox"
+                     class="form-check-input"
+                     id="check6"
+                     name="DevOps"
+                     value="something">
+           <label class="form-check-label">DevOps Engineer</label>
+         </div>
+         
+         <div class="form-check-career">
+           <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="check7"
+                  name="Security"
+                  value="something">
+           <label class="form-check-label">Security Engineer</label>
+         </div>
+         
+         <div class="form-check-career">
+           <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="check8"
+                  name="Cloud"
+                  value="something">
+           <label class="form-check-label">Cloud Architect</label>
+         </div>
+         
+         <div class="form-check-career">
+           <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="check9"
+                  name="App"
+                  value="something">
+           <label class="form-check-label">Mobile Application Developer</label>
+         </div>
+           
+           <div class="form-check-career">
+             <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="check10"
+                    name="Desktop"
+                    value="something">
+             <label class="form-check-label">Desktop Application Developer</label>
+         </div>
+             
+             <div class="form-check-career">
+             <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="check11"
+                    name="Data Science"
+                    value="something">
+             <label class="form-check-label">Data Science Developer</label>
+         </div>
+         
+         <div class="form-check-career">
+             <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="check12"
+                    name="Graphic"
+                    value="something">
+             <label class="form-check-label">Graphic Developer</label>
+         </div>
+         
+         <div class="form-check-career">
+             <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="check"
+                    name="13"
+                    value="something">
+             <label class="form-check-label">Customization Developer</label>
+         </div>
+         
+         <div class="form-check-career">
+             <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="check14"
+                    name="AI"
+                    value="something">
+             <label class="form-check-label">AI Engineer</label>
+         </div>  
+       </div>
+       
+       <div class="form group">
+         <p id="box">Why you want to become a software engineer?</p>
+         <textarea
+                   name="comment"
+                   id="comments"
+                   class="form-control"
+                   placeholder="Enter your comments here..."></textarea>
+         
+       </div>
+       
+       <div class="form-group">
+         <button
+                 type="submit"
+                 id="submit"
+                 class="btn-primary">Submit</button>
+       </div>
+       </form>
+     </div>
+    </div>
+    </html>
